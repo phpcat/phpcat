@@ -18,7 +18,7 @@ highlighter: pygments
 title:       "PHP.cat"
 keywords:    "PHP, català, programació, Catalunya, development, Catalonia, Països Catalans, Andorra, Rosselló, Perpinyà, València, País Valencià, Balears, Illes Balears, Mallorca, Barcelona, Barcelonès, Empordà"
 description: "Pàgina web del grup PHP de llengua catalana"
-source_link: "https://github.com/t413/SinglePaged"
+source_link: "https://github.com/phpcat/phpcat"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
 google_analytics_key: 
