@@ -21,7 +21,7 @@ description: "Pàgina web del grup PHP de llengua catalana"
 source_link: "https://github.com/phpcat/phpcat"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: 
+google_analytics_key: UA-28522556-4
 
 
 ### template colors, used site-wide via css ###
