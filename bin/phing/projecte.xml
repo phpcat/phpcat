@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<project basedir="${project.basedir}" > 
+
+
+	<if>
+		<available file="lib/composer/autoload.php"/>
+		<then>
+			<adhoc><![CDATA[
+    require_once 'lib/composer/autoload.php';
+  ]]></adhoc>
+			<taskdef name="projecte:tabula" classname="Phpcat\Phing\Projecte\TabulaTask" />
+		</then>
+	</if>
+
+	<target name="projecte.tabula" description="Crea una taula amb tots els projectes d'un any."> 
+
+		<if>
+			<not>
+				<isset property="curs" />
+			</not>
+			<then>
+				<fail>Paràmetre curs és obligatori, afegir -Dcurs=NN</fail>
+			</then>
+		</if>
+
+		<delete dir="${projectes.temp.dir}${curs}" includeemptydirs="true" />
+		<mkdir dir="${projectes.temp.dir}${curs}" />
+		<exec command="git clone ${projectes.repo.url}${curs}.git ${projectes.temp.dir}${curs}" level="verbose" passthru="true"/>
+		<exec command="git branch -a" passthru="true" dir="${projectes.temp.dir}${curs}" />
+
+	</target>
+
+
+</project>
+
+

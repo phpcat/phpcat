@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project name="PHP.cat site" basedir="." default="list">
+  <!-- Sets the DSTAMP, TSTAMP and TODAY properties -->
+  <tstamp/>
+
+  <if>
+    <available file="etc/config.ini"/>
+    <then>
+      <property file="etc/config.ini" override="false"/>
+    </then>
+  </if>
+  <property file="etc/config.ini.dist" override="false"/>
+
+
+  <target name="list" description="List targets">
+    <exec command="phing -l" level="verbose" passthru="true"/>
+  </target>
+
+  <import file="${targets.dir}/projecte.xml" optional="false" />
+
+
+</project>

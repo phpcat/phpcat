@@ -1,2 +1,5 @@
 _site/
 .sass-cache/
+/etc/*.ini
+/lib/composer
+/var

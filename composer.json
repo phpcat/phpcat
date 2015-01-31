@@ -1,0 +1,23 @@
+{
+    "autoload": {
+        "psr-0": {
+            "Phpcat\\": "lib/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/composer",
+        "cache-dir": "var/cache/composer",
+        "component-dir": "lib/composer",
+        "vendor-dir": "lib/composer"
+    },
+    "description": "Plana web PHP.cat",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "name": "phpcat/phpcat",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {},
+    "scripts": {},
+    "type": "project"
+}

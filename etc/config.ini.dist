@@ -1,0 +1,5 @@
+targets.dir=${project.basedir}/bin/phing
+
+projectes.repo.url=git@github.com:phpcat/Proj
+projectes.temp.dir=${project.basedir}/var/Proj
+
