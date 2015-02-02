@@ -11,4 +11,28 @@ Durant tot el mes de febrer d'enguany podeu proposar els projectes en els que pa
 
 Trobareu les explicacions pertinents de com procedir-hi a la branca **master**.
 
-[//]: # (phing projecte.tabula -Dcurs=16)
+[//]: # (phing projecte.tabula -Dcurs=16 -Dfilename=_posts/2000-01-03-projectes.md)
+[//]: # (PhingProjecteTabulaInici)
+
+
+----
+
+###Projectes Proj16
+
+Projecte|Descripció|Estimació|Suports
+--------|----------|--------:|------:
+[PHPdeLaManeraCorrecta](https://github.com/phpcat/Proj16/tree/feature/PHPdeLaManeraCorrecta)|PHP de la manera correcta. Traducció al català de PHP the right way.|20|8
+
+
+----
+
+###Developers Proj16
+
+Developer|Dedicació
+---------|--------:
+[corretge](https://github.com/corretge)|8
+
+
+
+[//]: # (PhingProjecteTabulaFinal)
+
