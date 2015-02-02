@@ -26,7 +26,18 @@
 		<delete dir="${projectes.temp.dir}${curs}" includeemptydirs="true" />
 		<mkdir dir="${projectes.temp.dir}${curs}" />
 		<exec command="git clone ${projectes.repo.url}${curs}.git ${projectes.temp.dir}${curs}" level="verbose" passthru="true"/>
-		<exec command="git branch -a" passthru="true" dir="${projectes.temp.dir}${curs}" />
+		
+		<if>
+			<not>
+				<isset property="filename" />
+			</not>
+			<then>
+				<projecte:tabula curs="${curs}"></projecte:tabula>
+			</then>
+			<else>
+				<projecte:tabula curs="${curs}" filename="${filename}"></projecte:tabula>
+			</else>
+		</if>
 
 	</target>
 
