@@ -218,7 +218,7 @@ class TabulaTask extends \Phpcat\Phing\Task
 					"[{$gitProject}](https://github.com/phpcat/Proj{$this->curs}/tree/feature/{$gitProject})"
 					. "|{$info['titol']}"
 					. "|{$info['estimacio']}"
-					. "|{$info['suports']}"
+					. "|[{$info['suports']}](https://github.com/phpcat/{$gitProject})"
 					. "\n";
 		}
 

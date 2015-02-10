@@ -19,7 +19,7 @@
 				<isset property="curs" />
 			</not>
 			<then>
-				<fail>Paràmetre curs és obligatori, afegir -Dcurs=NN</fail>
+				<fail>Paràmetre curs és obligatori, afegir -Dcurs=16 -Dfilename=_posts/2000-01-03-projectes.md</fail>
 			</then>
 		</if>
 
