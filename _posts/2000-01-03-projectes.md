@@ -22,6 +22,7 @@ Trobareu les explicacions pertinents de com procedir-hi a la branca **master**.
 Projecte|Descripció|Estimació|Suports
 --------|----------|--------:|------:
 [PHPdeLaManeraCorrecta](https://github.com/phpcat/Proj16/tree/feature/PHPdeLaManeraCorrecta)|PHP de la manera correcta. Traducció al català de PHP the right way.|20|[24](https://github.com/phpcat/PHPdeLaManeraCorrecta)
+[added-elcodi-as-a-project](https://github.com/phpcat/Proj16/tree/feature/added-elcodi-as-a-project)|Elcodi|20|[8](https://github.com/phpcat/added-elcodi-as-a-project)
 
 
 ----
@@ -30,7 +31,7 @@ Projecte|Descripció|Estimació|Suports
 
 Developer|Dedicació
 ---------|--------:
-[corretge](https://github.com/corretge)|8
+[corretge](https://github.com/corretge)|16
 [lluisi](https://github.com/lluisi)|8
 [marcmascort](https://github.com/marcmascort)|8
 
