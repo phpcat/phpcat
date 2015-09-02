@@ -3,3 +3,4 @@ _site/
 /etc/*.ini
 /lib/composer
 /var
+*.swp
